@@ -18,11 +18,11 @@
 ########################################## 
 cd /root/ROCKY9/APM
 
-wget https://files.phpmyadmin.net/phpMyAdmin/5.2.0/phpMyAdmin-5.2.0-all-languages.tar.gz
+wget https://files.phpmyadmin.net/phpMyAdmin/5.2.1/phpMyAdmin-5.2.1-all-languages.tar.gz
 
-tar -zxvf phpMyAdmin-5.2.0-all-languages.tar.gz
+tar -zxvf phpMyAdmin-5.2.1-all-languages.tar.gz
 
-mv phpMyAdmin-5.2.0-all-languages /usr/share/phpMyAdmin
+mv phpMyAdmin-5.2.1-all-languages /usr/share/phpMyAdmin
 
 
 cp -pr /usr/share/phpMyAdmin/config.sample.inc.php /usr/share/phpMyAdmin/config.inc.php
