@@ -464,7 +464,7 @@ chmod 700 /etc/cron.daily/backup
 chmod 700 /etc/cron.daily/check_chkrootkit
 
 
-echo "0 0,12 * * * root python -c 'import random; import time; time.sleep(random.random() * 3600)' && /usr/local/bin/certbot-auto renew" | sudo tee -a /etc/crontab > /dev/null
+echo "0 0,12 * * * root python -c 'import random; import time; time.sleep(random.random() * 3600)' && /usr/bin/certbot renew" | sudo tee -a /etc/crontab > /dev/null
 echo "01 01 * * 7 /root/ROCKY9/clamav.sh" >> /etc/crontab
 
 #openssl 로 디피-헬만 파라미터(dhparam) 키 만들기 둘중 하나 선택
