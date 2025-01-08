@@ -4,7 +4,7 @@
 #                                                                                   #
 # * APMinstaller with Rocky9 Linux                                                  #
 # * ROCKY Linux-9.x                                                                 #
-# * Apache 2.4.X , MariaDB 10.5.X, Multi-PHP(base php7.4) setup shell script        #
+# * Apache 2.4.X , MariaDB 10.11.X, Multi-PHP(base php7.4) setup shell script       #
 # * Created Date    : 2023/2/5                                                      #
 # * Created by  : Joo Sung ( webmaster@apachezone.com )                             #
 #                                                                                   #
@@ -91,4 +91,3 @@ echo ""
 exit;
 
 esac
-

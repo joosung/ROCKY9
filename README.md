@@ -4,7 +4,7 @@ APMinstaller with ROCKY9 Linux
 쉬운 업데이트 지원. (공식+인기 저장소를 사용하여 dnf update 만으로 업데이트 완료)
 사용자 생성,삭제,백업 스크립트 사용으로 시스템 계정, 디비 계정 자동 생성 지원
 Let's Encrypt - 무료 SSL 인증서 발급 및 갱신 지원
-멀티 PHP 지원 - 7.4, 8.0, 8.1, 8.2
+멀티 PHP 지원 - 7.4, 8.0, 8.1, 8.2, 8.3, 8.4
 모니터링 툴 - cockpit 지원
 </pre>
 
@@ -66,7 +66,7 @@ https://apachezone.com
 APM 및 설치 버전은 아래와 같습니다.
 
 httpd 2.4.x
-php (base php7.4) 7.4, 8.0, 8.1, 8.2
+php (base php7.4) 7.4, 8.0, 8.1, 8.2, 8.3, 8.4
 mariadb 10.5.x
 Zend OPcache
 Let's Encrypt
